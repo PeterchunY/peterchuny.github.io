@@ -42,7 +42,7 @@
 
     #grid { margin-top: .9rem; display:grid; grid-template-columns:repeat(3,1fr); gap:.7rem; perspective:600px; }
     .tile {
-      position:relative; padding-bottom:100%; border-radius:14px; background:#0066ff; display:flex;
+      position:relative; padding-bottom:100%; border-radius:14px; background:#00655B; display:flex;
       justify-content:center; align-items:center; font-size:2.2rem; font-weight:700; cursor:pointer;
       transition: transform .25s ease, background .25s; user-select:none;
     }
@@ -65,7 +65,7 @@
   <div id="app">
 
     <div id="startScreen">
-      <h1>極速配對</h1>
+      <h1>極速方塊配對</h1>
       <p>點擊兩個相同的數字，以最快速度拿高分！</p>
       <button id="startBtn">開始遊戲</button>
     </div>
@@ -153,10 +153,10 @@
     }
     return arr;
   };
-  const generateDigits = () => {
+  const generateDigits = (count = 6) => {
     const dup = Math.floor(Math.random() * 10);
     const digits = new Set([dup]);
-    while (digits.size < 5) digits.add(Math.floor(Math.random() * 10));
+    while (digits.size < count - 1) digits.add(Math.floor(Math.random() * 10));
     const arr = Array.from(digits);
     arr.push(dup);
     return shuffle(arr);
@@ -178,7 +178,8 @@
   
   const drawGrid = () => {
     gridElm.innerHTML = '';
-    const digits = generateDigits();
+    const tileCount = score >= 5 ? 9 : 6;
+    const digits = generateDigits(tileCount);
     digits.forEach(num => {
       const div = document.createElement('div');
       div.className = 'tile';

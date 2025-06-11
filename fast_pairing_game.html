@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>極速配對 – Fast Pairing</title>
+  <!-- Canvas‑confetti for win animation -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1/dist/confetti.browser.min.js" defer></script>
+  <style>
+    * { box-sizing: border-box; font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif; }
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top, #12265c 0%, #0d1b3d 60%);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      overflow: hidden;
+    }
+    #app { width: 380px; max-width: 92vw; text-align: center; position: relative; }
+    h1 { margin: .2rem 0 1rem; font-size: 2rem; letter-spacing: 2px; text-shadow: 0 2px 6px rgba(0,0,0,.4); }
+
+
+    button {
+      padding: .7rem 1.5rem;
+      font-size: 1.05rem;
+      background: linear-gradient(135deg,#ff9b00 0%,#ff5e00 100%);
+      border: none; border-radius: 10px; color:#fff; cursor:pointer; font-weight:600;
+      transition: transform .1s ease, box-shadow .2s;
+      box-shadow: 0 4px 10px rgba(0,0,0,.3);
+    }
+    button:hover { box-shadow: 0 6px 14px rgba(0,0,0,.45); }
+    button:active { transform: scale(.95); }
+
+    #info { display:flex; justify-content:space-between; align-items:center; margin-bottom:.4rem; font-size:1rem; }
+
+
+    #progress { height:8px; background:#23356e; border-radius:5px; overflow:hidden; margin-top:.4rem; }
+    #progressInner { height:100%; width:0; background:linear-gradient(90deg,#ff5e00,#ff9b00); }
+
+
+    #grid { margin-top: .9rem; display:grid; grid-template-columns:repeat(3,1fr); gap:.7rem; perspective:600px; }
+    .tile {
+      position:relative; padding-bottom:100%; border-radius:14px; background:#0066ff; display:flex;
+      justify-content:center; align-items:center; font-size:2.2rem; font-weight:700; cursor:pointer;
+      transition: transform .25s ease, background .25s; user-select:none;
+    }
+    .tile:hover { transform: translateY(-4px); }
+    .tile.selected { background:#ff5733; }
+    .tile.correct { background:#27ae60; animation: pulse .55s ease both; }
+    .tile.wrong   { background:#b00020; animation: shake .4s ease; }
+
+    @keyframes pulse { 0%{transform:scale(1)} 50%{transform:scale(1.15)} 100%{transform:scale(1)} }
+    @keyframes shake { 0%,100%{transform:translateX(0)} 20%,60%{transform:translateX(-6px)} 40%,80%{transform:translateX(6px)} }
+
+
+    .hidden { display:none !important; }
+
+    #endScreen h1 { font-size:2.2rem; margin:0 0 .8rem; animation: popIn .6s ease; }
+    @keyframes popIn {0%{transform:scale(.5);opacity:0}100%{transform:scale(1);opacity:1}}
+  </style>
+</head>
+<body>
+  <div id="app">
+
+    <div id="startScreen">
+      <h1>極速配對</h1>
+      <p>點擊兩個相同的數字，以最快速度拿高分！</p>
+      <button id="startBtn">開始遊戲</button>
+    </div>
+
+
+    <div id="gameScreen" class="hidden">
+      <div id="info">
+        <span>時間：<span id="timer">60</span>s</span>
+        <span>得分：<span id="score">0</span></span>
+      </div>
+      <div id="progress"><div id="progressInner"></div></div>
+      <div id="grid"></div>
+    </div>
+
+
+    <div id="endScreen" class="hidden">
+      <h1>遊戲結束</h1>
+      <p>你的得分：<span id="finalScore">0</span></p>
+      <button id="restartBtn">再玩一次</button>
+    </div>
+  </div>
+
+<script>
+(() => {
+
+  const createSound = (url) => {
+    const audio = new Audio();
+    audio.src = url;
+    audio.preload = 'auto';
+    audio.crossOrigin = 'anonymous'; 
+    return audio;
+  };
+
+  
+  const sounds = {
+    click   : createSound('./sfx_click.mp3'),
+    correct : createSound('./sfx_correct.mp3'),
+    wrong   : createSound('./sfx_wrong.mp3'),
+    start   : createSound('./sfx_start.mp3'),
+    end     : createSound('./sfx_end.mp3'),
+  };
+  Object.values(sounds).forEach(a=> a.volume = .6);
+
+  
+  const webCtx = new (window.AudioContext||window.webkitAudioContext)();
+  const beep = (freq=440, len=0.15)=>{
+    const osc = webCtx.createOscillator();
+    const gain = webCtx.createGain();
+    osc.frequency.value = freq;
+    osc.type = 'square';
+    osc.connect(gain);
+    gain.connect(webCtx.destination);
+    osc.start();
+    gain.gain.setValueAtTime(.3, webCtx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(.001, webCtx.currentTime + len);
+    osc.stop(webCtx.currentTime + len);
+  };
+
+  
+  const $ = (id) => document.getElementById(id);
+  const startBtn   = $("startBtn");
+  const restartBtn = $("restartBtn");
+  const startScr   = $("startScreen");
+  const gameScr    = $("gameScreen");
+  const endScr     = $("endScreen");
+  const gridElm    = $("grid");
+  const timerElm   = $("timer");
+  const scoreElm   = $("score");
+  const finalScoreElm = $("finalScore");
+  const progressInner = $("progressInner");
+
+  
+  let firstTile   = null;
+  let running     = false;
+  let score       = 0;
+  let maxTime     = 30; 
+  let timeLeft    = maxTime;
+  let timerId     = null;
+
+ 
+  const shuffle = arr => {
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  };
+  const generateDigits = () => {
+    const dup = Math.floor(Math.random() * 10);
+    const digits = new Set([dup]);
+    while (digits.size < 5) digits.add(Math.floor(Math.random() * 10));
+    const arr = Array.from(digits);
+    arr.push(dup);
+    return shuffle(arr);
+  };
+
+  
+  const playSound = (key, fallbackFreq=null) => {
+    const snd = sounds[key];
+    if (snd && snd.readyState >= 2) {
+      
+      const clone = snd.cloneNode();
+      clone.volume = snd.volume;
+      clone.play().catch(()=>fallbackFreq && beep(fallbackFreq));
+    } else if (fallbackFreq) {
+      beep(fallbackFreq);
+    }
+  };
+
+  
+  const drawGrid = () => {
+    gridElm.innerHTML = '';
+    const digits = generateDigits();
+    digits.forEach(num => {
+      const div = document.createElement('div');
+      div.className = 'tile';
+      div.dataset.value = num;
+      div.textContent = num;
+      div.addEventListener('click', handleTileClick);
+      gridElm.appendChild(div);
+    });
+  };
+
+  function handleTileClick(e) {
+    if (!running) return;
+    const tile = e.currentTarget;
+    if (tile === firstTile || tile.classList.contains('correct')) return;
+
+    tile.classList.add('selected');
+    playSound('click', 660);
+
+    if (!firstTile) { firstTile = tile; return; }
+
+    const isMatch = tile.dataset.value === firstTile.dataset.value;
+    const success = isMatch ? 'correct' : 'wrong';
+    tile.classList.add(success);
+    firstTile.classList.add(success);
+
+    if (isMatch) {
+      score++;
+      scoreElm.textContent = score;
+      playSound('correct', 880);
+      setTimeout(()=>{ firstTile=null; drawGrid(); }, 500);
+    } else {
+      playSound('wrong', 220);
+      setTimeout(()=>{
+        [tile, firstTile].forEach(t=>t.classList.remove('selected','wrong'));
+        firstTile=null; }, 450);
+    }
+  }
+
+  const startTimer = () => {
+    progressInner.style.transition = 'none';
+    progressInner.style.width = '0';
+    requestAnimationFrame(()=>{
+      progressInner.style.transition = `width ${timeLeft}s linear`;
+      progressInner.style.width = '100%';
+    });
+    timerElm.textContent = timeLeft;
+    timerId = setInterval(()=>{
+      timeLeft--; timerElm.textContent = timeLeft;
+      if (timeLeft<=0) endGame();
+    },1000);
+  };
+
+  const startGame = () => {
+    playSound('start', 990);
+    startScr.classList.add('hidden');
+    endScr.classList.add('hidden');
+    gameScr.classList.remove('hidden');
+
+    score = 0;      scoreElm.textContent = score;
+    timeLeft = maxTime; timerElm.textContent = timeLeft;
+
+    running = true;
+    drawGrid();
+    startTimer();
+  };
+
+  const endGame = () => {
+    running = false;
+    clearInterval(timerId);
+    gameScr.classList.add('hidden');
+    endScr.classList.remove('hidden');
+    finalScoreElm.textContent = score;
+    playSound('end', 550);
+
+    if (window.confetti){
+      const dur = 1600; const end = Date.now()+dur;
+      (function frame(){
+        confetti({particleCount:3,angle:60,spread:55,origin:{x:0}});
+        confetti({particleCount:3,angle:120,spread:55,origin:{x:1}});
+        if (Date.now()<end) requestAnimationFrame(frame);
+      })(); }
+  };
+
+  
+  startBtn.addEventListener('click', startGame);
+  restartBtn.addEventListener('click', startGame);
+})();
+</script>
+</body>
+</html>

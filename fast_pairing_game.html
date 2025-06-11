@@ -10,7 +10,7 @@
     * { box-sizing: border-box; font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif; }
     body {
       margin: 0;
-      background: radial-gradient(circle at top, #12265c 0%, #0d1b3d 60%);
+      background: radial-gradient(circle at top, #12265c 0%, #007B7D 60%);
       color: #fff;
       display: flex;
       justify-content: center;
@@ -42,8 +42,8 @@
 
     #grid { margin-top: .9rem; display:grid; grid-template-columns:repeat(3,1fr); gap:.7rem; perspective:600px; }
     .tile {
-      position:relative; padding-bottom:100%; border-radius:14px; background:#00655B; display:flex;
-      justify-content:center; align-items:center; font-size:2.2rem; font-weight:700; cursor:pointer;
+      position:relative; aspect-ratio: 1 / 1; border-radius:14px; background:#00655B; display:flex;
+      justify-content:center; align-items:center; font-size:3.1rem; font-weight:700; cursor:pointer;
       transition: transform .25s ease, background .25s; user-select:none;
     }
     .tile:hover { transform: translateY(-4px); }

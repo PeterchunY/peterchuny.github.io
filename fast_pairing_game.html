@@ -209,7 +209,9 @@
       score++;
       scoreElm.textContent = score;
       playSound('correct', 880);
-      setTimeout(()=>{ firstTile=null; drawGrid(); }, 500);
+      firstTile = null;
+      //setTimeout(()=>{ firstTile=null; drawGrid(); }, 500);
+      setTimeout(()=>{ drawGrid(); }, 500);
     } else {
       playSound('wrong', 220);
       setTimeout(()=>{

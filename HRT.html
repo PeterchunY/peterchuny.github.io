@@ -13,22 +13,17 @@
     }
   </style>
   <script>
-    const WEB_URL="https://www.facebook.com/story.php?story_fbid=831475432752249&id=100076693982398";
-    const POST_ID="831475432752249";
-    const OWNER_ID="100076693982398";
-    function isAndroid(){return /Android/.test(navigator.userAgent)}
-    function tryOpen(u){return new Promise(r=>{
-      const f=document.createElement('iframe');
-      f.style.display='none'; f.src=u;
-      document.body.appendChild(f);
-      const t=Date.now();
-      setTimeout(()=>{r(!(Date.now()-t<1500&&!document.hidden));f.remove();},1200);
-    })}
-    (async()=>{
-      const c=[`fb://post/${POST_ID}`,`fb://story/?id=${POST_ID}&owner=${OWNER_ID}`,`fb://facewebmodal/f?href=${encodeURIComponent(WEB_URL)}`];
-      if(isAndroid()) c.push(`intent://facewebmodal/f?href=${encodeURIComponent(WEB_URL)}#Intent;scheme=fb;package=com.facebook.katana;end`);
-      for(const u of c){try{if(await tryOpen(u)) return;}catch(e){}}
-      location.replace(WEB_URL);
+    const FB_APP_LINK = "fb://profile/100076693982398";
+    const FB_WEB_LINK = "https://www.facebook.com/100076693982398/posts/831475432752249/";
+
+    (function(){
+      const ua = navigator.userAgent.toLowerCase();
+      const isChrome = ua.includes("chrome") && !ua.includes("edg") && !ua.includes("opr");
+      if(isChrome){
+        location.replace(FB_APP_LINK);
+      } else {
+        location.replace(FB_WEB_LINK);
+      }
     })();
   </script>
 </head>

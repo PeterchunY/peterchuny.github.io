@@ -19,8 +19,8 @@
     (function(){
       const ua = navigator.userAgent.toLowerCase();
       const isChrome = ua.includes("chrome") && !ua.includes("edg") && !ua.includes("opr");
-      const isApple = /iphone|ipad|ipod|macintosh/.test(ua);
-      if(isChrome && isApple){
+      #const isApple = /iphone|ipad|ipod|macintosh/.test(ua);
+      if(isChrome){
         location.replace(FB_APP_LINK);
       } else {
         location.replace(FB_WEB_LINK);

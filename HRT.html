@@ -13,13 +13,14 @@
     }
   </style>
   <script>
-    const FB_APP_LINK = "fb://profile/100076693982398";
+    const FB_APP_LINK = "fb://page/?id=556055591230516";
     const FB_WEB_LINK = "https://www.facebook.com/100076693982398/posts/831475432752249/";
 
     (function(){
       const ua = navigator.userAgent.toLowerCase();
       const isChrome = ua.includes("chrome") && !ua.includes("edg") && !ua.includes("opr");
-      if(isChrome){
+      const isApple = /iphone|ipad|ipod|macintosh/.test(ua);
+      if(isChrome && isApple){
         location.replace(FB_APP_LINK);
       } else {
         location.replace(FB_WEB_LINK);

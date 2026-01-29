@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>分群演算法視覺化工具</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@400;700&family=Noto+Sans+TC:wght@400;700&display=swap"
+        rel="stylesheet">
+  <script type="module" crossorigin src="/clustering/assets/index-ANORNdlP.js"></script>
+  <link rel="stylesheet" crossorigin href="/clustering/assets/index-DAhKQMLG.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <header>
+            <h1 class="glitch-text" data-text="分群演算法視覺化">分群演算法視覺化</h1>
+            <p class="subtitle">透過動畫探索 KMeans、DBSCAN 與 HDBSCAN</p>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-btn active" data-tab="kmeans">K-Means</button>
+            <button class="tab-btn" data-tab="dbscan">DBSCAN</button>
+            <button class="tab-btn" data-tab="hdbscan">HDBSCAN</button>
+        </nav>
+
+        <main class="content-area">
+            <div id="kmeans" class="tab-panel active">
+                <div class="panel-layout">
+                    <div class="canvas-container glass">
+                        <canvas id="kmeans-canvas"></canvas>
+                        <div class="controls">
+                            <button id="kmeans-reset" class="btn secondary">重置</button>
+                            <button id="kmeans-step" class="btn primary">下一步</button>
+                            <button id="kmeans-run" class="btn accent">自動執行</button>
+                        </div>
+                    </div>
+                    <aside class="description glass">
+                        <h2>K-Means 分群</h2>
+                        <p>一種基於中心點的演算法，將 <em>n</em> 個觀測值劃分為 <em>k</em> 個群組。</p>
+                        <ul class="stats">
+                            <li><strong>階段：</strong> <span id="kmeans-phase">初始化</span></li>
+                            <li><strong>迭代次數：</strong> <span id="kmeans-iter">0</span></li>
+                        </ul>
+                        <div class="algorithm-steps">
+                            <div class="step" data-step="0">1. 隨機放置 K 個中心點。</div>
+                            <div class="step" data-step="1">2. 將每個點分配給最近的中心點。</div>
+                            <div class="step" data-step="2">3. 將中心點移動到所屬點的平均位置。</div>
+                            <div class="step" data-step="3">4. 重複直到收斂。</div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+
+            <div id="dbscan" class="tab-panel">
+                <div class="panel-layout">
+                    <div class="canvas-container glass">
+                        <canvas id="dbscan-canvas"></canvas>
+                        <div class="controls">
+                            <button id="dbscan-reset" class="btn secondary">重置</button>
+                            <button id="dbscan-run" class="btn primary">開始動畫</button>
+                        </div>
+                    </div>
+                    <aside class="description glass">
+                        <h2>DBSCAN</h2>
+                        <p>具雜訊點的基於密度空間分群 (Density-Based Spatial Clustering of Applications with Noise)。</p>
+                        <ul class="stats">
+                            <li><strong>狀態：</strong> <span id="dbscan-status">等待中</span></li>
+                            <li><strong>雜訊點數量：</strong> <span id="dbscan-noise">0</span></li>
+                        </ul>
+                        <div class="algorithm-steps">
+                            <div class="step" data-step="0">1. 選取一個尚未訪問的點。</div>
+                            <div class="step" data-step="1">2. 搜尋半徑 (Eps) 內的鄰居點。</div>
+                            <div class="step" data-step="2">3. 若鄰居數小於門檻 (MinPts)，標記為雜訊。</div>
+                            <div class="step" data-step="3">4. 否則，啟動新分群並遞迴擴展。</div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+
+            <div id="hdbscan" class="tab-panel">
+                <div class="panel-layout">
+                    <div class="canvas-container glass">
+                        <canvas id="hdbscan-canvas"></canvas>
+                        <div class="controls">
+                            <button id="hdbscan-reset" class="btn secondary">重置</button>
+                            <button id="hdbscan-run" class="btn primary">開始動畫</button>
+                        </div>
+                    </div>
+                    <aside class="description glass">
+                        <h2>HDBSCAN</h2>
+                        <div class="beginner-note">
+                            <p><strong>💡 初學者導讀：</strong></p>
+                            <p>想像你在看雲朵。DBSCAN 像是在固定距離看雲，但 HDBSCAN 則會從遠處（宏觀）一直拉近到近處（微觀）來觀察密度變化。</p>
+                        </div>
+                        <ul class="stats">
+                            <li><strong>目前狀態：</strong> <span id="hdbscan-status">等待中</span></li>
+                        </ul>
+                        <div class="algorithm-steps">
+                            <div class="step" data-step="0">
+                                <strong>1. 測量密度 (Core Distance)</strong>
+                                <p>計算每個點周圍有多擠。點越擠，它的核距離越短。</p>
+                            </div>
+                            <div class="step" data-step="1">
+                                <strong>2. 連結鄰居 (MST)</strong>
+                                <p>把點連在一起，但會考慮密度的影響，不讓稀疏區的點干擾核心。</p>
+                            </div>
+                            <div class="step" data-step="2">
+                                <strong>3. 建立家譜 (Dendrogram)</strong>
+                                <p>看群組如何隨密度增加而分裂或合併，形成一個階層樹。</p>
+                            </div>
+                            <div class="step" data-step="3">
+                                <strong>4. 選取最終群組 (Stability)</strong>
+                                <p>像是在家譜中選出最「穩定」的成員，而不是只切一刀。</p>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

@@ -10,8 +10,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@400;700&family=Noto+Sans+TC:wght@400;700&display=swap"
         rel="stylesheet">
-  <script type="module" crossorigin src="/clustering/assets/index-ANORNdlP.js"></script>
-  <link rel="stylesheet" crossorigin href="/clustering/assets/index-DAhKQMLG.css">
+  <script type="module" crossorigin src="/clustering/assets/index-Bda_1g_O.js"></script>
+  <link rel="stylesheet" crossorigin href="/clustering/assets/index-Qyb78kBe.css">
 </head>
 
 <body>
@@ -87,34 +87,44 @@
                         <canvas id="hdbscan-canvas"></canvas>
                         <div class="controls">
                             <button id="hdbscan-reset" class="btn secondary">重置</button>
-                            <button id="hdbscan-run" class="btn primary">開始動畫</button>
+                            <button id="hdbscan-step" class="btn primary">下一步</button>
+                            <button id="hdbscan-run" class="btn accent">開始動畫</button>
                         </div>
                     </div>
                     <aside class="description glass">
-                        <h2>HDBSCAN</h2>
-                        <div class="beginner-note">
-                            <p><strong>💡 初學者導讀：</strong></p>
-                            <p>想像你在看雲朵。DBSCAN 像是在固定距離看雲，但 HDBSCAN 則會從遠處（宏觀）一直拉近到近處（微觀）來觀察密度變化。</p>
+                        <h2>HDBSCAN 分群詳解</h2>
+
+                        <div class="comparison-box">
+                            <h3>🔍 HDBSCAN vs. DBSCAN</h3>
+                            <p><strong>DBSCAN:</strong> 只用「一個半徑 (Eps)」看世界。密度不均時，有些群組會糊在一起或消失。</p>
+                            <p><strong>HDBSCAN:</strong> 像「變焦鏡頭」，同時觀察所有半徑。它能自動找到不同密度的群組，不用手動調參數。</p>
                         </div>
-                        <ul class="stats">
-                            <li><strong>目前狀態：</strong> <span id="hdbscan-status">等待中</span></li>
-                        </ul>
+
+                        <div class="status-box glass">
+                            <strong>目前狀態：</strong> <span id="hdbscan-status">等待中</span>
+                        </div>
+
+                        <div class="beginner-note">
+                            <p><strong>💡 核心觀念：</strong></p>
+                            <p>與其問「誰在半徑 10 厘米內？」，HDBSCAN 問的是：「要讓這兩個點連起來，最少需要多高的密度？」</p>
+                        </div>
+
                         <div class="algorithm-steps">
                             <div class="step" data-step="0">
-                                <strong>1. 測量密度 (Core Distance)</strong>
-                                <p>計算每個點周圍有多擠。點越擠，它的核距離越短。</p>
+                                <strong>1. 重新定義距離 (Mutual Reachability)</strong>
+                                <p>如果一個點在稀疏區，我們會「人為推開」它。這能確保核心密集的點被突顯出來。</p>
                             </div>
                             <div class="step" data-step="1">
-                                <strong>2. 連結鄰居 (MST)</strong>
-                                <p>把點連在一起，但會考慮密度的影響，不讓稀疏區的點干擾核心。</p>
+                                <strong>2. 連結最親近的點 (MST)</strong>
+                                <p>根據新距離把點連成一張大網。最容易連起來的，就是密度最高的群組核心。</p>
                             </div>
                             <div class="step" data-step="2">
-                                <strong>3. 建立家譜 (Dendrogram)</strong>
-                                <p>看群組如何隨密度增加而分裂或合併，形成一個階層樹。</p>
+                                <strong>3. 觀察群組演化 (Dendrogram)</strong>
+                                <p>隨著密度門檻提高，大網會斷裂成小網。我們記錄下所有可能的「群組分支」。</p>
                             </div>
                             <div class="step" data-step="3">
-                                <strong>4. 選取最終群組 (Stability)</strong>
-                                <p>像是在家譜中選出最「穩定」的成員，而不是只切一刀。</p>
+                                <strong>4. 存活者勝出 (Stability)</strong>
+                                <p>有些分支一下就消失了（雜訊），有些則在各種密度下都存在。我們只保留那些「長壽且穩定」的群組。</p>
                             </div>
                         </div>
                     </aside>

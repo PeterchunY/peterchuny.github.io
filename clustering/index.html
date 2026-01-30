@@ -10,8 +10,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@400;700&family=Noto+Sans+TC:wght@400;700&display=swap"
         rel="stylesheet">
-  <script type="module" crossorigin src="/clustering/assets/index-Bda_1g_O.js"></script>
-  <link rel="stylesheet" crossorigin href="/clustering/assets/index-Qyb78kBe.css">
+  <script type="module" crossorigin src="/clustering/assets/index-D9X90eOi.js"></script>
+  <link rel="stylesheet" crossorigin href="/clustering/assets/index-CTcdteGD.css">
 </head>
 
 <body>
@@ -92,12 +92,9 @@
                         </div>
                     </div>
                     <aside class="description glass">
-                        <h2>HDBSCAN 分群詳解</h2>
-
-                        <div class="comparison-box">
-                            <h3>🔍 HDBSCAN vs. DBSCAN</h3>
-                            <p><strong>DBSCAN:</strong> 只用「一個半徑 (Eps)」看世界。密度不均時，有些群組會糊在一起或消失。</p>
-                            <p><strong>HDBSCAN:</strong> 像「變焦鏡頭」，同時觀察所有半徑。它能自動找到不同密度的群組，不用手動調參數。</p>
+                        <div class="title-with-info">
+                            <h2>HDBSCAN 分群詳解</h2>
+                            <button id="hdbscan-info-btn" class="info-btn" title="查看與 DBSCAN 的差異">🔍</button>
                         </div>
 
                         <div class="status-box glass">
@@ -106,31 +103,55 @@
 
                         <div class="beginner-note">
                             <p><strong>💡 核心觀念：</strong></p>
-                            <p>與其問「誰在半徑 10 厘米內？」，HDBSCAN 問的是：「要讓這兩個點連起來，最少需要多高的密度？」</p>
+                            <p>與其問「距離半徑10 公分內有哪些點？」，HDBSCAN
+                                問的是：「要讓這兩個點連起來，最少需要多高的密度？」換言之，更在意「兩點連線是不是在密集區內成立」，而不是只看距離是不是小於某個固定值。</p>
                         </div>
 
                         <div class="algorithm-steps">
                             <div class="step" data-step="0">
                                 <strong>1. 重新定義距離 (Mutual Reachability)</strong>
-                                <p>如果一個點在稀疏區，我們會「人為推開」它。這能確保核心密集的點被突顯出來。</p>
+                                <p>如果一個點在稀疏區，周圍不夠擠，那它就不該輕易跟別人連成群。這樣核心密集的區域才會更突出。</p>
                             </div>
                             <div class="step" data-step="1">
-                                <strong>2. 連結最親近的點 (MST)</strong>
-                                <p>根據新距離把點連成一張大網。最容易連起來的，就是密度最高的群組核心。</p>
+                                <strong>2. 把所有點串成一張“最省力”的網 (MST)</strong>
+                                <p>根據新距離把把所有點連起來，形成一張網。最容易連起來的，就是密度最高的群組核心。</p>
                             </div>
                             <div class="step" data-step="2">
-                                <strong>3. 觀察群組演化 (Dendrogram)</strong>
-                                <p>隨著密度門檻提高，大網會斷裂成小網。我們記錄下所有可能的「群組分支」。</p>
+                                <strong>3. 慢慢把標準收緊：看大網怎麼裂成小網 (Dendrogram)</strong>
+                                <p>調整「密度門檻」，隨著密度門檻提高，大網會斷裂成小網。我們記錄下所有可能的「群組分支」。</p>
                             </div>
                             <div class="step" data-step="3">
-                                <strong>4. 存活者勝出 (Stability)</strong>
-                                <p>有些分支一下就消失了（雜訊），有些則在各種密度下都存在。我們只保留那些「長壽且穩定」的群組。</p>
+                                <strong>4. 留下“長壽且穩定”的群 (Stability)</strong>
+                                <p>有些群分支一下就消失了（雜訊），有些則在各種密度下都存在。我們只保留那些「長壽且穩定」的群組。</p>
                             </div>
                         </div>
                     </aside>
                 </div>
             </div>
         </main>
+    </div>
+    <div id="info-modal" class="modal-overlay">
+        <div class="modal-content glass">
+            <div class="modal-header">
+                <h3>🔍 HDBSCAN vs. DBSCAN 深度對比</h3>
+                <button id="modal-close" class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="compare-item">
+                    <h4>📡 DBSCAN (固定視野)</h4>
+                    <p>需要預先設定一個固定的半徑 <code>eps</code>。這就像是戴著一副固定度數的眼鏡，只能看清特定距離的群組。如果資料中同時存在「極密集」和「較稀疏」的群組，DBSCAN
+                        往往只能抓到其中一種，另一種會被當成雜訊或糊在一起。</p>
+                </div>
+                <div class="compare-item">
+                    <h4>🔭 HDBSCAN (變焦鏡頭)</h4>
+                    <p>不預設固定半徑，而是掃描所有可能的距離。它會找出在各種尺度下都能「穩定存在」的群集。你只需要告訴它：<strong>「一個群組最少要由幾個點組成
+                            (min_cluster_size)」</strong>，它就會自動幫你找出最合理的各級分層。</p>
+                </div>
+                <div class="compare-note">
+                    <strong>💡 核心結論：</strong> HDBSCAN 更在意「點與點之間是否有高密度的路徑連通」，而非單純的物理距離。這讓它在處理複雜分佈的資料時，比 DBSCAN 強大得多。
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 

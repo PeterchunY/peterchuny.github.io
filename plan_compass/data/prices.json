@@ -1,14 +1,14 @@
 {
   "version": 1,
   "mode": "live",
-  "generatedAt": "2026-09-18T09:22:04.849Z",
+  "generatedAt": "2026-09-21T01:38:46.562Z",
   "pricingSource": {
     "name": "OpenAI ChatGPT checkout pricing config",
     "urlTemplate": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/{country_code}"
   },
   "fx": {
     "baseCurrency": "USD",
-    "date": "2026-09-18",
+    "date": "2026-09-21",
     "source": "Frankfurter + open.er-api.com",
     "sourceUrls": [
       "https://api.frankfurter.dev/v1/latest?base=USD&symbols=AED%2CAUD%2CBRL%2CCAD%2CCHF%2CCLP%2CCOP%2CCZK%2CDKK%2CEGP%2CEUR%2CGBP%2CHUF%2CIDR%2CILS%2CINR%2CJPY%2CKRW%2CKZT%2CMXN%2CMYR%2CNGN%2CNOK%2CNZD%2CPEN%2CPHP%2CPKR%2CPLN%2CQAR%2CRON%2CSAR%2CSEK%2CSGD%2CTHB%2CTWD%2CTZS%2CVND%2CZAR",
@@ -16,84 +16,84 @@
     ],
     "rates": {
       "USD": 1,
-      "AUD": 1.4057,
-      "BRL": 5.1307,
-      "CAD": 1.3995,
-      "CHF": 0.82449,
-      "CZK": 21.172,
-      "DKK": 6.511,
-      "EUR": 0.871,
-      "GBP": 0.74758,
-      "HUF": 316.16,
-      "IDR": 17727,
-      "ILS": 3.0333,
-      "INR": 95.94,
-      "JPY": 155.69,
-      "KRW": 1382.55,
-      "MXN": 17.1881,
-      "MYR": 4.099,
-      "NOK": 9.4286,
-      "NZD": 1.7414,
-      "PHP": 62.718,
-      "PLN": 3.7958,
-      "RON": 4.5836,
-      "SEK": 9.8175,
-      "SGD": 1.2753,
-      "THB": 33.305,
-      "ZAR": 16.2525,
+      "AUD": 1.4045,
+      "BRL": 5.1359,
+      "CAD": 1.401,
+      "CHF": 0.82565,
+      "CZK": 21.238,
+      "DKK": 6.523,
+      "EUR": 0.8726,
+      "GBP": 0.74939,
+      "HUF": 317.87,
+      "IDR": 17823,
+      "ILS": 3.0377,
+      "INR": 95.88,
+      "JPY": 157.89,
+      "KRW": 1388.1,
+      "MXN": 17.1776,
+      "MYR": 4.0805,
+      "NOK": 9.4324,
+      "NZD": 1.7511,
+      "PHP": 62.803,
+      "PLN": 3.8076,
+      "RON": 4.594,
+      "SEK": 9.853,
+      "SGD": 1.2784,
+      "THB": 33.355,
+      "ZAR": 16.2724,
       "AED": 3.6725,
-      "CLP": 953.439415,
-      "COP": 3128.800779,
-      "EGP": 52.136987,
-      "KZT": 445.572358,
-      "NGN": 1330.266485,
-      "PEN": 3.368044,
-      "PKR": 277.281209,
+      "CLP": 961.805542,
+      "COP": 3165.609107,
+      "EGP": 52.042641,
+      "KZT": 447.017095,
+      "NGN": 1332.834401,
+      "PEN": 3.380003,
+      "PKR": 277.926206,
       "QAR": 3.64,
       "SAR": 3.75,
-      "TWD": 31.863639,
-      "TZS": 2644.694049,
-      "VND": 25964.161732
+      "TWD": 31.806515,
+      "TZS": 2646.453459,
+      "VND": 25994.936845
     },
     "rateDates": {
-      "AUD": "2026-09-17",
-      "BRL": "2026-09-17",
-      "CAD": "2026-09-17",
-      "CHF": "2026-09-17",
-      "CZK": "2026-09-17",
-      "DKK": "2026-09-17",
-      "EUR": "2026-09-17",
-      "GBP": "2026-09-17",
-      "HUF": "2026-09-17",
-      "IDR": "2026-09-17",
-      "ILS": "2026-09-17",
-      "INR": "2026-09-17",
-      "JPY": "2026-09-17",
-      "KRW": "2026-09-17",
-      "MXN": "2026-09-17",
-      "MYR": "2026-09-17",
-      "NOK": "2026-09-17",
-      "NZD": "2026-09-17",
-      "PHP": "2026-09-17",
-      "PLN": "2026-09-17",
-      "RON": "2026-09-17",
-      "SEK": "2026-09-17",
-      "SGD": "2026-09-17",
-      "THB": "2026-09-17",
-      "ZAR": "2026-09-17",
-      "AED": "2026-09-18",
-      "CLP": "2026-09-18",
-      "COP": "2026-09-18",
-      "EGP": "2026-09-18",
-      "KZT": "2026-09-18",
-      "NGN": "2026-09-18",
-      "PEN": "2026-09-18",
-      "PKR": "2026-09-18",
-      "QAR": "2026-09-18",
-      "SAR": "2026-09-18",
-      "TWD": "2026-09-18",
-      "TZS": "2026-09-18",
-      "VND": "2026-09-18"
+      "AUD": "2026-09-18",
+      "BRL": "2026-09-18",
+      "CAD": "2026-09-18",
+      "CHF": "2026-09-18",
+      "CZK": "2026-09-18",
+      "DKK": "2026-09-18",
+      "EUR": "2026-09-18",
+      "GBP": "2026-09-18",
+      "HUF": "2026-09-18",
+      "IDR": "2026-09-18",
+      "ILS": "2026-09-18",
+      "INR": "2026-09-18",
+      "JPY": "2026-09-18",
+      "KRW": "2026-09-18",
+      "MXN": "2026-09-18",
+      "MYR": "2026-09-18",
+      "NOK": "2026-09-18",
+      "NZD": "2026-09-18",
+      "PHP": "2026-09-18",
+      "PLN": "2026-09-18",
+      "RON": "2026-09-18",
+      "SEK": "2026-09-18",
+      "SGD": "2026-09-18",
+      "THB": "2026-09-18",
+      "ZAR": "2026-09-18",
+      "AED": "2026-09-21",
+      "CLP": "2026-09-21",
+      "COP": "2026-09-21",
+      "EGP": "2026-09-21",
+      "KZT": "2026-09-21",
+      "NGN": "2026-09-21",
+      "PEN": "2026-09-21",
+      "PKR": "2026-09-21",
+      "QAR": "2026-09-21",
+      "SAR": "2026-09-21",
+      "TWD": "2026-09-21",
+      "TZS": "2026-09-21",
+      "VND": "2026-09-21"
     }
   },
   "coverage": {
@@ -116,10 +116,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/EG",
-      "usdAmount": 22.06,
-      "twdAmount": 702.83
+      "usdAmount": 22.1,
+      "twdAmount": 702.84
     },
     {
       "countryCode": "SE",
@@ -133,10 +133,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/SE",
-      "usdAmount": 22.41,
-      "twdAmount": 714.03
+      "usdAmount": 22.33,
+      "twdAmount": 710.18
     },
     {
       "countryCode": "CL",
@@ -150,10 +150,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/CL",
-      "usdAmount": 22.65,
-      "twdAmount": 721.87
+      "usdAmount": 22.46,
+      "twdAmount": 714.3
     },
     {
       "countryCode": "LI",
@@ -167,10 +167,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/LI",
-      "usdAmount": 23.04,
-      "twdAmount": 734.28
+      "usdAmount": 23.01,
+      "twdAmount": 731.94
     },
     {
       "countryCode": "PH",
@@ -184,27 +184,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/PH",
-      "usdAmount": 23.12,
-      "twdAmount": 736.67
-    },
-    {
-      "countryCode": "TH",
-      "countryName": "泰國",
-      "currencyCode": "THB",
-      "currencySource": "api",
-      "symbol": "฿",
-      "minorUnitExponent": 2,
-      "localAmount": 780,
-      "taxTreatment": "exclusive",
-      "taxType": null,
-      "taxPercent": null,
-      "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
-      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/TH",
-      "usdAmount": 23.42,
-      "twdAmount": 746.24
+      "usdAmount": 23.09,
+      "twdAmount": 734.35
     },
     {
       "countryCode": "PL",
@@ -218,27 +201,27 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/PL",
-      "usdAmount": 23.45,
-      "twdAmount": 747.11
+      "usdAmount": 23.37,
+      "twdAmount": 743.46
     },
     {
-      "countryCode": "IN",
-      "countryName": "印度",
-      "currencyCode": "INR",
+      "countryCode": "TH",
+      "countryName": "泰國",
+      "currencyCode": "THB",
       "currencySource": "api",
-      "symbol": "₹",
+      "symbol": "฿",
       "minorUnitExponent": 2,
-      "localAmount": 2250,
+      "localAmount": 780,
       "taxTreatment": "exclusive",
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
-      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/IN",
-      "usdAmount": 23.45,
-      "twdAmount": 747.27
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
+      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/TH",
+      "usdAmount": 23.38,
+      "twdAmount": 743.79
     },
     {
       "countryCode": "NZ",
@@ -252,27 +235,27 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/NZ",
-      "usdAmount": 23.54,
-      "twdAmount": 750.21
+      "usdAmount": 23.41,
+      "twdAmount": 744.71
     },
     {
-      "countryCode": "MY",
-      "countryName": "馬來西亞",
-      "currencyCode": "MYR",
+      "countryCode": "IN",
+      "countryName": "印度",
+      "currencyCode": "INR",
       "currencySource": "api",
-      "symbol": "RM",
+      "symbol": "₹",
       "minorUnitExponent": 2,
-      "localAmount": 97,
+      "localAmount": 2250,
       "taxTreatment": "exclusive",
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
-      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/MY",
-      "usdAmount": 23.66,
-      "twdAmount": 754.03
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
+      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/IN",
+      "usdAmount": 23.47,
+      "twdAmount": 746.4
     },
     {
       "countryCode": "ID",
@@ -286,10 +269,27 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/ID",
-      "usdAmount": 23.75,
-      "twdAmount": 756.73
+      "usdAmount": 23.62,
+      "twdAmount": 751.31
+    },
+    {
+      "countryCode": "MY",
+      "countryName": "馬來西亞",
+      "currencyCode": "MYR",
+      "currencySource": "api",
+      "symbol": "RM",
+      "minorUnitExponent": 2,
+      "localAmount": 97,
+      "taxTreatment": "exclusive",
+      "taxType": null,
+      "taxPercent": null,
+      "status": "fresh",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
+      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/MY",
+      "usdAmount": 23.77,
+      "twdAmount": 756.09
     },
     {
       "countryCode": "RO",
@@ -303,95 +303,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/RO",
-      "usdAmount": 24,
-      "twdAmount": 764.68
-    },
-    {
-      "countryCode": "GB",
-      "countryName": "英國",
-      "currencyCode": "GBP",
-      "currencySource": "api",
-      "symbol": "£",
-      "minorUnitExponent": 2,
-      "localAmount": 18,
-      "taxTreatment": "exclusive",
-      "taxType": null,
-      "taxPercent": null,
-      "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
-      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/GB",
-      "usdAmount": 24.08,
-      "twdAmount": 767.2
-    },
-    {
-      "countryCode": "GG",
-      "countryName": "根息",
-      "currencyCode": "GBP",
-      "currencySource": "api",
-      "symbol": "£",
-      "minorUnitExponent": 2,
-      "localAmount": 18,
-      "taxTreatment": "exclusive",
-      "taxType": null,
-      "taxPercent": null,
-      "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
-      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/GG",
-      "usdAmount": 24.08,
-      "twdAmount": 767.2
-    },
-    {
-      "countryCode": "GI",
-      "countryName": "直布羅陀",
-      "currencyCode": "GBP",
-      "currencySource": "api",
-      "symbol": "£",
-      "minorUnitExponent": 2,
-      "localAmount": 18,
-      "taxTreatment": "exclusive",
-      "taxType": null,
-      "taxPercent": null,
-      "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
-      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/GI",
-      "usdAmount": 24.08,
-      "twdAmount": 767.2
-    },
-    {
-      "countryCode": "IM",
-      "countryName": "曼島",
-      "currencyCode": "GBP",
-      "currencySource": "api",
-      "symbol": "£",
-      "minorUnitExponent": 2,
-      "localAmount": 18,
-      "taxTreatment": "exclusive",
-      "taxType": null,
-      "taxPercent": null,
-      "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
-      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/IM",
-      "usdAmount": 24.08,
-      "twdAmount": 767.2
-    },
-    {
-      "countryCode": "JE",
-      "countryName": "澤西島",
-      "currencyCode": "GBP",
-      "currencySource": "api",
-      "symbol": "£",
-      "minorUnitExponent": 2,
-      "localAmount": 18,
-      "taxTreatment": "exclusive",
-      "taxType": null,
-      "taxPercent": null,
-      "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
-      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/JE",
-      "usdAmount": 24.08,
-      "twdAmount": 767.2
+      "usdAmount": 23.94,
+      "twdAmount": 761.58
     },
     {
       "countryCode": "CZ",
@@ -405,10 +320,95 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/CZ",
-      "usdAmount": 24.09,
-      "twdAmount": 767.54
+      "usdAmount": 24.01,
+      "twdAmount": 763.79
+    },
+    {
+      "countryCode": "GB",
+      "countryName": "英國",
+      "currencyCode": "GBP",
+      "currencySource": "api",
+      "symbol": "£",
+      "minorUnitExponent": 2,
+      "localAmount": 18,
+      "taxTreatment": "exclusive",
+      "taxType": null,
+      "taxPercent": null,
+      "status": "fresh",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
+      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/GB",
+      "usdAmount": 24.02,
+      "twdAmount": 763.98
+    },
+    {
+      "countryCode": "GG",
+      "countryName": "根息",
+      "currencyCode": "GBP",
+      "currencySource": "api",
+      "symbol": "£",
+      "minorUnitExponent": 2,
+      "localAmount": 18,
+      "taxTreatment": "exclusive",
+      "taxType": null,
+      "taxPercent": null,
+      "status": "fresh",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
+      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/GG",
+      "usdAmount": 24.02,
+      "twdAmount": 763.98
+    },
+    {
+      "countryCode": "GI",
+      "countryName": "直布羅陀",
+      "currencyCode": "GBP",
+      "currencySource": "api",
+      "symbol": "£",
+      "minorUnitExponent": 2,
+      "localAmount": 18,
+      "taxTreatment": "exclusive",
+      "taxType": null,
+      "taxPercent": null,
+      "status": "fresh",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
+      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/GI",
+      "usdAmount": 24.02,
+      "twdAmount": 763.98
+    },
+    {
+      "countryCode": "IM",
+      "countryName": "曼島",
+      "currencyCode": "GBP",
+      "currencySource": "api",
+      "symbol": "£",
+      "minorUnitExponent": 2,
+      "localAmount": 18,
+      "taxTreatment": "exclusive",
+      "taxType": null,
+      "taxPercent": null,
+      "status": "fresh",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
+      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/IM",
+      "usdAmount": 24.02,
+      "twdAmount": 763.98
+    },
+    {
+      "countryCode": "JE",
+      "countryName": "澤西島",
+      "currencyCode": "GBP",
+      "currencySource": "api",
+      "symbol": "£",
+      "minorUnitExponent": 2,
+      "localAmount": 18,
+      "taxTreatment": "exclusive",
+      "taxType": null,
+      "taxPercent": null,
+      "status": "fresh",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
+      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/JE",
+      "usdAmount": 24.02,
+      "twdAmount": 763.98
     },
     {
       "countryCode": "AD",
@@ -422,10 +422,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/AD",
-      "usdAmount": 24.11,
-      "twdAmount": 768.24
+      "usdAmount": 24.07,
+      "twdAmount": 765.46
     },
     {
       "countryCode": "AX",
@@ -439,10 +439,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/AX",
-      "usdAmount": 24.11,
-      "twdAmount": 768.24
+      "usdAmount": 24.07,
+      "twdAmount": 765.46
     },
     {
       "countryCode": "GF",
@@ -456,10 +456,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/GF",
-      "usdAmount": 24.11,
-      "twdAmount": 768.24
+      "usdAmount": 24.07,
+      "twdAmount": 765.46
     },
     {
       "countryCode": "GP",
@@ -473,10 +473,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/GP",
-      "usdAmount": 24.11,
-      "twdAmount": 768.24
+      "usdAmount": 24.07,
+      "twdAmount": 765.46
     },
     {
       "countryCode": "IS",
@@ -490,10 +490,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/IS",
-      "usdAmount": 24.11,
-      "twdAmount": 768.24
+      "usdAmount": 24.07,
+      "twdAmount": 765.46
     },
     {
       "countryCode": "MC",
@@ -507,10 +507,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/MC",
-      "usdAmount": 24.11,
-      "twdAmount": 768.24
+      "usdAmount": 24.07,
+      "twdAmount": 765.46
     },
     {
       "countryCode": "ME",
@@ -524,10 +524,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/ME",
-      "usdAmount": 24.11,
-      "twdAmount": 768.24
+      "usdAmount": 24.07,
+      "twdAmount": 765.46
     },
     {
       "countryCode": "MF",
@@ -541,10 +541,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/MF",
-      "usdAmount": 24.11,
-      "twdAmount": 768.24
+      "usdAmount": 24.07,
+      "twdAmount": 765.46
     },
     {
       "countryCode": "MQ",
@@ -558,10 +558,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/MQ",
-      "usdAmount": 24.11,
-      "twdAmount": 768.24
+      "usdAmount": 24.07,
+      "twdAmount": 765.46
     },
     {
       "countryCode": "PF",
@@ -575,10 +575,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/PF",
-      "usdAmount": 24.11,
-      "twdAmount": 768.24
+      "usdAmount": 24.07,
+      "twdAmount": 765.46
     },
     {
       "countryCode": "RE",
@@ -592,10 +592,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/RE",
-      "usdAmount": 24.11,
-      "twdAmount": 768.24
+      "usdAmount": 24.07,
+      "twdAmount": 765.46
     },
     {
       "countryCode": "SM",
@@ -609,10 +609,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/SM",
-      "usdAmount": 24.11,
-      "twdAmount": 768.24
+      "usdAmount": 24.07,
+      "twdAmount": 765.46
     },
     {
       "countryCode": "VA",
@@ -626,10 +626,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/VA",
-      "usdAmount": 24.11,
-      "twdAmount": 768.24
+      "usdAmount": 24.07,
+      "twdAmount": 765.46
     },
     {
       "countryCode": "YT",
@@ -643,10 +643,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/YT",
-      "usdAmount": 24.11,
-      "twdAmount": 768.24
+      "usdAmount": 24.07,
+      "twdAmount": 765.46
     },
     {
       "countryCode": "CA",
@@ -660,61 +660,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/CA",
-      "usdAmount": 24.29,
-      "twdAmount": 774.11
-    },
-    {
-      "countryCode": "TZ",
-      "countryName": "坦尚尼亞",
-      "currencyCode": "TZS",
-      "currencySource": "api",
-      "symbol": "TSh",
-      "minorUnitExponent": 2,
-      "localAmount": 64800,
-      "taxTreatment": "exclusive",
-      "taxType": null,
-      "taxPercent": null,
-      "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
-      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/TZ",
-      "usdAmount": 24.5,
-      "twdAmount": 780.72
-    },
-    {
-      "countryCode": "DK",
-      "countryName": "丹麥",
-      "currencyCode": "DKK",
-      "currencySource": "api",
-      "symbol": "kr",
-      "minorUnitExponent": 2,
-      "localAmount": 160,
-      "taxTreatment": "exclusive",
-      "taxType": null,
-      "taxPercent": null,
-      "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
-      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/DK",
-      "usdAmount": 24.57,
-      "twdAmount": 783.01
-    },
-    {
-      "countryCode": "ZA",
-      "countryName": "南非",
-      "currencyCode": "ZAR",
-      "currencySource": "api",
-      "symbol": "R",
-      "minorUnitExponent": 2,
-      "localAmount": 400,
-      "taxTreatment": "exclusive",
-      "taxType": null,
-      "taxPercent": null,
-      "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
-      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/ZA",
-      "usdAmount": 24.61,
-      "twdAmount": 784.22
+      "usdAmount": 24.27,
+      "twdAmount": 771.89
     },
     {
       "countryCode": "JP",
@@ -728,10 +677,61 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/JP",
-      "usdAmount": 24.73,
-      "twdAmount": 787.94
+      "usdAmount": 24.38,
+      "twdAmount": 775.57
+    },
+    {
+      "countryCode": "TZ",
+      "countryName": "坦尚尼亞",
+      "currencyCode": "TZS",
+      "currencySource": "api",
+      "symbol": "TSh",
+      "minorUnitExponent": 2,
+      "localAmount": 64800,
+      "taxTreatment": "exclusive",
+      "taxType": null,
+      "taxPercent": null,
+      "status": "fresh",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
+      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/TZ",
+      "usdAmount": 24.49,
+      "twdAmount": 778.8
+    },
+    {
+      "countryCode": "DK",
+      "countryName": "丹麥",
+      "currencyCode": "DKK",
+      "currencySource": "api",
+      "symbol": "kr",
+      "minorUnitExponent": 2,
+      "localAmount": 160,
+      "taxTreatment": "exclusive",
+      "taxType": null,
+      "taxPercent": null,
+      "status": "fresh",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
+      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/DK",
+      "usdAmount": 24.53,
+      "twdAmount": 780.17
+    },
+    {
+      "countryCode": "ZA",
+      "countryName": "南非",
+      "currencyCode": "ZAR",
+      "currencySource": "api",
+      "symbol": "R",
+      "minorUnitExponent": 2,
+      "localAmount": 400,
+      "taxTreatment": "exclusive",
+      "taxType": null,
+      "taxPercent": null,
+      "status": "fresh",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
+      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/ZA",
+      "usdAmount": 24.58,
+      "twdAmount": 781.85
     },
     {
       "countryCode": "TW",
@@ -745,27 +745,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/TW",
-      "usdAmount": 24.79,
+      "usdAmount": 24.84,
       "twdAmount": 790
-    },
-    {
-      "countryCode": "AU",
-      "countryName": "澳洲",
-      "currencyCode": "AUD",
-      "currencySource": "api",
-      "symbol": "A$",
-      "minorUnitExponent": 2,
-      "localAmount": 35,
-      "taxTreatment": "exclusive",
-      "taxType": null,
-      "taxPercent": null,
-      "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
-      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/AU",
-      "usdAmount": 24.9,
-      "twdAmount": 793.36
     },
     {
       "countryCode": "CH",
@@ -779,10 +762,27 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/CH",
-      "usdAmount": 24.91,
-      "twdAmount": 793.8
+      "usdAmount": 24.88,
+      "twdAmount": 791.26
+    },
+    {
+      "countryCode": "AU",
+      "countryName": "澳洲",
+      "currencyCode": "AUD",
+      "currencySource": "api",
+      "symbol": "A$",
+      "minorUnitExponent": 2,
+      "localAmount": 35,
+      "taxTreatment": "exclusive",
+      "taxType": null,
+      "taxPercent": null,
+      "status": "fresh",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
+      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/AU",
+      "usdAmount": 24.92,
+      "twdAmount": 792.62
     },
     {
       "countryCode": "VN",
@@ -796,10 +796,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/VN",
-      "usdAmount": 25,
-      "twdAmount": 796.46
+      "usdAmount": 24.97,
+      "twdAmount": 794.09
     },
     {
       "countryCode": "AF",
@@ -813,10 +813,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/AF",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "AG",
@@ -830,10 +830,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/AG",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "AI",
@@ -847,10 +847,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/AI",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "AL",
@@ -864,10 +864,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/AL",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "AM",
@@ -881,10 +881,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/AM",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "AO",
@@ -898,10 +898,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/AO",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "AQ",
@@ -915,10 +915,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/AQ",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "AR",
@@ -932,10 +932,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/AR",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "AS",
@@ -949,10 +949,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/AS",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "AW",
@@ -966,10 +966,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/AW",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "AZ",
@@ -983,10 +983,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/AZ",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "BA",
@@ -1000,10 +1000,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/BA",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "BB",
@@ -1017,10 +1017,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/BB",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "BD",
@@ -1034,10 +1034,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/BD",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "BF",
@@ -1051,10 +1051,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/BF",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "BH",
@@ -1068,10 +1068,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/BH",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "BI",
@@ -1085,10 +1085,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/BI",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "BJ",
@@ -1102,10 +1102,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/BJ",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "BL",
@@ -1119,10 +1119,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/BL",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "BM",
@@ -1136,10 +1136,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/BM",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "BN",
@@ -1153,10 +1153,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/BN",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "BO",
@@ -1170,10 +1170,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/BO",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "BQ",
@@ -1187,10 +1187,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/BQ",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "BS",
@@ -1204,10 +1204,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/BS",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "BT",
@@ -1221,10 +1221,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/BT",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "BW",
@@ -1238,10 +1238,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/BW",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "BZ",
@@ -1255,10 +1255,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/BZ",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "CD",
@@ -1272,10 +1272,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/CD",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "CF",
@@ -1289,10 +1289,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/CF",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "CG",
@@ -1306,10 +1306,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/CG",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "CI",
@@ -1323,10 +1323,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/CI",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "CK",
@@ -1340,10 +1340,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/CK",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "CM",
@@ -1357,10 +1357,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/CM",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "CR",
@@ -1374,10 +1374,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/CR",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "CV",
@@ -1391,10 +1391,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/CV",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "CW",
@@ -1408,10 +1408,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/CW",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "DJ",
@@ -1425,10 +1425,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/DJ",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "DM",
@@ -1442,10 +1442,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/DM",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "DO",
@@ -1459,10 +1459,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/DO",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "DZ",
@@ -1476,10 +1476,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/DZ",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "EC",
@@ -1493,10 +1493,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/EC",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "ER",
@@ -1510,10 +1510,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/ER",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "ET",
@@ -1527,10 +1527,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/ET",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "FJ",
@@ -1544,10 +1544,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/FJ",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "FK",
@@ -1561,10 +1561,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/FK",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "FM",
@@ -1578,10 +1578,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/FM",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "FO",
@@ -1595,10 +1595,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/FO",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "GA",
@@ -1612,10 +1612,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/GA",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "GD",
@@ -1629,10 +1629,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/GD",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "GE",
@@ -1646,10 +1646,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/GE",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "GH",
@@ -1663,10 +1663,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/GH",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "GL",
@@ -1680,10 +1680,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/GL",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "GM",
@@ -1697,10 +1697,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/GM",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "GN",
@@ -1714,10 +1714,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/GN",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "GQ",
@@ -1731,10 +1731,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/GQ",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "GT",
@@ -1748,10 +1748,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/GT",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "GU",
@@ -1765,10 +1765,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/GU",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "GW",
@@ -1782,10 +1782,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/GW",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "GY",
@@ -1799,10 +1799,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/GY",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "HN",
@@ -1816,10 +1816,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/HN",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "HT",
@@ -1833,10 +1833,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/HT",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "IQ",
@@ -1850,10 +1850,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/IQ",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "JM",
@@ -1867,10 +1867,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/JM",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "JO",
@@ -1884,10 +1884,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/JO",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "KE",
@@ -1901,10 +1901,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/KE",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "KG",
@@ -1918,10 +1918,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/KG",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "KH",
@@ -1935,10 +1935,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/KH",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "KI",
@@ -1952,10 +1952,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/KI",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "KM",
@@ -1969,10 +1969,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/KM",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "KN",
@@ -1986,10 +1986,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/KN",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "KW",
@@ -2003,10 +2003,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/KW",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "KY",
@@ -2020,10 +2020,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/KY",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "LA",
@@ -2037,10 +2037,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/LA",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "LB",
@@ -2054,10 +2054,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/LB",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "LC",
@@ -2071,10 +2071,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/LC",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "LK",
@@ -2088,10 +2088,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/LK",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "LR",
@@ -2105,10 +2105,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/LR",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "LS",
@@ -2122,10 +2122,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/LS",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "LY",
@@ -2139,10 +2139,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/LY",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "MA",
@@ -2156,10 +2156,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/MA",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "MD",
@@ -2173,10 +2173,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/MD",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "MG",
@@ -2190,10 +2190,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/MG",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "MH",
@@ -2207,10 +2207,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/MH",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "MK",
@@ -2224,10 +2224,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/MK",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "ML",
@@ -2241,10 +2241,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/ML",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "MM",
@@ -2258,10 +2258,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/MM",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "MN",
@@ -2275,10 +2275,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/MN",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "MP",
@@ -2292,10 +2292,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/MP",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "MR",
@@ -2309,10 +2309,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/MR",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "MS",
@@ -2326,10 +2326,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/MS",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "MU",
@@ -2343,10 +2343,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/MU",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "MV",
@@ -2360,10 +2360,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/MV",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "MW",
@@ -2377,10 +2377,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/MW",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "MZ",
@@ -2394,10 +2394,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/MZ",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "NA",
@@ -2411,10 +2411,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/NA",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "NC",
@@ -2428,10 +2428,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/NC",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "NE",
@@ -2445,10 +2445,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/NE",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "NF",
@@ -2462,10 +2462,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/NF",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "NI",
@@ -2479,10 +2479,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/NI",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "NP",
@@ -2496,10 +2496,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/NP",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "NR",
@@ -2513,10 +2513,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/NR",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "NU",
@@ -2530,10 +2530,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/NU",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "OM",
@@ -2547,10 +2547,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/OM",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "PA",
@@ -2564,10 +2564,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/PA",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "PG",
@@ -2581,10 +2581,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/PG",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "PM",
@@ -2598,10 +2598,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/PM",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "PN",
@@ -2615,10 +2615,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/PN",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "PR",
@@ -2632,10 +2632,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/PR",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "PS",
@@ -2649,10 +2649,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/PS",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "PW",
@@ -2666,10 +2666,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/PW",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "PY",
@@ -2683,10 +2683,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/PY",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "QA",
@@ -2700,10 +2700,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/QA",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "RW",
@@ -2717,10 +2717,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/RW",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "SB",
@@ -2734,10 +2734,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/SB",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "SC",
@@ -2751,10 +2751,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/SC",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "SD",
@@ -2768,10 +2768,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/SD",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "SH",
@@ -2785,10 +2785,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/SH",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "SJ",
@@ -2802,10 +2802,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/SJ",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "SL",
@@ -2819,10 +2819,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/SL",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "SN",
@@ -2836,10 +2836,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/SN",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "SO",
@@ -2853,10 +2853,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/SO",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "SR",
@@ -2870,10 +2870,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/SR",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "SS",
@@ -2887,10 +2887,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/SS",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "ST",
@@ -2904,10 +2904,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/ST",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "SV",
@@ -2921,10 +2921,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/SV",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "SX",
@@ -2938,10 +2938,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/SX",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "SZ",
@@ -2955,10 +2955,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/SZ",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "TC",
@@ -2972,10 +2972,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/TC",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "TD",
@@ -2989,10 +2989,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/TD",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "TF",
@@ -3006,10 +3006,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/TF",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "TG",
@@ -3023,10 +3023,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/TG",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "TJ",
@@ -3040,10 +3040,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/TJ",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "TK",
@@ -3057,10 +3057,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/TK",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "TL",
@@ -3074,10 +3074,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/TL",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "TM",
@@ -3091,10 +3091,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/TM",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "TN",
@@ -3108,10 +3108,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/TN",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "TO",
@@ -3125,10 +3125,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/TO",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "TR",
@@ -3142,10 +3142,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/TR",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "TT",
@@ -3159,10 +3159,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/TT",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "TV",
@@ -3176,10 +3176,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/TV",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "UA",
@@ -3193,10 +3193,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/UA",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "UG",
@@ -3210,10 +3210,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/UG",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "US",
@@ -3227,10 +3227,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/US",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "UY",
@@ -3244,10 +3244,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/UY",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "UZ",
@@ -3261,10 +3261,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/UZ",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "VC",
@@ -3278,10 +3278,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/VC",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "VG",
@@ -3295,10 +3295,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/VG",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "VI",
@@ -3312,10 +3312,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/VI",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "VU",
@@ -3329,10 +3329,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/VU",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "WF",
@@ -3346,10 +3346,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/WF",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "WS",
@@ -3363,10 +3363,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/WS",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "YE",
@@ -3380,10 +3380,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/YE",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "ZM",
@@ -3397,10 +3397,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/ZM",
       "usdAmount": 25,
-      "twdAmount": 796.59
+      "twdAmount": 795.16
     },
     {
       "countryCode": "ZW",
@@ -3414,78 +3414,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/ZW",
       "usdAmount": 25,
-      "twdAmount": 796.59
-    },
-    {
-      "countryCode": "MX",
-      "countryName": "墨西哥",
-      "currencyCode": "MXN",
-      "currencySource": "api",
-      "symbol": "$",
-      "minorUnitExponent": 2,
-      "localAmount": 430,
-      "taxTreatment": "exclusive",
-      "taxType": null,
-      "taxPercent": null,
-      "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
-      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/MX",
-      "usdAmount": 25.02,
-      "twdAmount": 797.14
-    },
-    {
-      "countryCode": "AE",
-      "countryName": "阿拉伯聯合大公國",
-      "currencyCode": "AED",
-      "currencySource": "api",
-      "symbol": "د.إ",
-      "minorUnitExponent": 2,
-      "localAmount": 92,
-      "taxTreatment": "exclusive",
-      "taxType": null,
-      "taxPercent": null,
-      "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
-      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/AE",
-      "usdAmount": 25.05,
-      "twdAmount": 798.22
-    },
-    {
-      "countryCode": "SA",
-      "countryName": "沙烏地阿拉伯",
-      "currencyCode": "SAR",
-      "currencySource": "api",
-      "symbol": "ر.س",
-      "minorUnitExponent": 2,
-      "localAmount": 94,
-      "taxTreatment": "exclusive",
-      "taxType": null,
-      "taxPercent": null,
-      "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
-      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/SA",
-      "usdAmount": 25.07,
-      "twdAmount": 798.72
-    },
-    {
-      "countryCode": "SG",
-      "countryName": "新加坡",
-      "currencyCode": "SGD",
-      "currencySource": "api",
-      "symbol": "S$",
-      "minorUnitExponent": 2,
-      "localAmount": 32,
-      "taxTreatment": "exclusive",
-      "taxType": null,
-      "taxPercent": null,
-      "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
-      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/SG",
-      "usdAmount": 25.09,
-      "twdAmount": 799.53
+      "twdAmount": 795.16
     },
     {
       "countryCode": "HU",
@@ -3499,10 +3431,78 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/HU",
-      "usdAmount": 25.15,
-      "twdAmount": 801.23
+      "usdAmount": 25.01,
+      "twdAmount": 795.49
+    },
+    {
+      "countryCode": "SG",
+      "countryName": "新加坡",
+      "currencyCode": "SGD",
+      "currencySource": "api",
+      "symbol": "S$",
+      "minorUnitExponent": 2,
+      "localAmount": 32,
+      "taxTreatment": "exclusive",
+      "taxType": null,
+      "taxPercent": null,
+      "status": "fresh",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
+      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/SG",
+      "usdAmount": 25.03,
+      "twdAmount": 796.16
+    },
+    {
+      "countryCode": "MX",
+      "countryName": "墨西哥",
+      "currencyCode": "MXN",
+      "currencySource": "api",
+      "symbol": "$",
+      "minorUnitExponent": 2,
+      "localAmount": 430,
+      "taxTreatment": "exclusive",
+      "taxType": null,
+      "taxPercent": null,
+      "status": "fresh",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
+      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/MX",
+      "usdAmount": 25.03,
+      "twdAmount": 796.2
+    },
+    {
+      "countryCode": "AE",
+      "countryName": "阿拉伯聯合大公國",
+      "currencyCode": "AED",
+      "currencySource": "api",
+      "symbol": "د.إ",
+      "minorUnitExponent": 2,
+      "localAmount": 92,
+      "taxTreatment": "exclusive",
+      "taxType": null,
+      "taxPercent": null,
+      "status": "fresh",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
+      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/AE",
+      "usdAmount": 25.05,
+      "twdAmount": 796.79
+    },
+    {
+      "countryCode": "SA",
+      "countryName": "沙烏地阿拉伯",
+      "currencyCode": "SAR",
+      "currencySource": "api",
+      "symbol": "ر.س",
+      "minorUnitExponent": 2,
+      "localAmount": 94,
+      "taxTreatment": "exclusive",
+      "taxType": null,
+      "taxPercent": null,
+      "status": "fresh",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
+      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/SA",
+      "usdAmount": 25.07,
+      "twdAmount": 797.28
     },
     {
       "countryCode": "PK",
@@ -3516,10 +3516,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/PK",
-      "usdAmount": 25.25,
-      "twdAmount": 804.4
+      "usdAmount": 25.19,
+      "twdAmount": 801.1
     },
     {
       "countryCode": "NG",
@@ -3533,10 +3533,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/NG",
-      "usdAmount": 25.26,
-      "twdAmount": 804.81
+      "usdAmount": 25.21,
+      "twdAmount": 801.82
     },
     {
       "countryCode": "BR",
@@ -3550,10 +3550,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/BR",
-      "usdAmount": 25.34,
-      "twdAmount": 807.35
+      "usdAmount": 25.31,
+      "twdAmount": 805.09
     },
     {
       "countryCode": "NO",
@@ -3567,10 +3567,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/NO",
-      "usdAmount": 25.45,
-      "twdAmount": 811.07
+      "usdAmount": 25.44,
+      "twdAmount": 809.29
     },
     {
       "countryCode": "IL",
@@ -3584,10 +3584,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/IL",
-      "usdAmount": 25.71,
-      "twdAmount": 819.36
+      "usdAmount": 25.68,
+      "twdAmount": 816.71
     },
     {
       "countryCode": "KR",
@@ -3601,10 +3601,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/KR",
-      "usdAmount": 26.11,
-      "twdAmount": 832
+      "usdAmount": 26.01,
+      "twdAmount": 827.18
     },
     {
       "countryCode": "KZ",
@@ -3618,27 +3618,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/KZ",
-      "usdAmount": 27.6,
-      "twdAmount": 879.59
-    },
-    {
-      "countryCode": "RS",
-      "countryName": "塞爾維亞",
-      "currencyCode": "EUR",
-      "currencySource": "api",
-      "symbol": "€",
-      "minorUnitExponent": 2,
-      "localAmount": 25.2,
-      "taxTreatment": "inclusive",
-      "taxType": null,
-      "taxPercent": null,
-      "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
-      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/RS",
-      "usdAmount": 28.93,
-      "twdAmount": 921.89
+      "usdAmount": 27.52,
+      "twdAmount": 875.18
     },
     {
       "countryCode": "CO",
@@ -3652,10 +3635,27 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/CO",
-      "usdAmount": 29.21,
-      "twdAmount": 930.82
+      "usdAmount": 28.87,
+      "twdAmount": 918.34
+    },
+    {
+      "countryCode": "RS",
+      "countryName": "塞爾維亞",
+      "currencyCode": "EUR",
+      "currencySource": "api",
+      "symbol": "€",
+      "minorUnitExponent": 2,
+      "localAmount": 25.2,
+      "taxTreatment": "inclusive",
+      "taxType": null,
+      "taxPercent": null,
+      "status": "fresh",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
+      "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/RS",
+      "usdAmount": 28.88,
+      "twdAmount": 918.55
     },
     {
       "countryCode": "PE",
@@ -3669,10 +3669,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/PE",
-      "usdAmount": 29.43,
-      "twdAmount": 937.73
+      "usdAmount": 29.33,
+      "twdAmount": 932.74
     },
     {
       "countryCode": "AT",
@@ -3686,10 +3686,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/AT",
-      "usdAmount": 29.85,
-      "twdAmount": 951.15
+      "usdAmount": 29.8,
+      "twdAmount": 947.71
     },
     {
       "countryCode": "BE",
@@ -3703,10 +3703,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/BE",
-      "usdAmount": 29.85,
-      "twdAmount": 951.15
+      "usdAmount": 29.8,
+      "twdAmount": 947.71
     },
     {
       "countryCode": "BG",
@@ -3720,10 +3720,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/BG",
-      "usdAmount": 29.85,
-      "twdAmount": 951.15
+      "usdAmount": 29.8,
+      "twdAmount": 947.71
     },
     {
       "countryCode": "CY",
@@ -3737,10 +3737,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/CY",
-      "usdAmount": 29.85,
-      "twdAmount": 951.15
+      "usdAmount": 29.8,
+      "twdAmount": 947.71
     },
     {
       "countryCode": "DE",
@@ -3754,10 +3754,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/DE",
-      "usdAmount": 29.85,
-      "twdAmount": 951.15
+      "usdAmount": 29.8,
+      "twdAmount": 947.71
     },
     {
       "countryCode": "EE",
@@ -3771,10 +3771,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/EE",
-      "usdAmount": 29.85,
-      "twdAmount": 951.15
+      "usdAmount": 29.8,
+      "twdAmount": 947.71
     },
     {
       "countryCode": "ES",
@@ -3788,10 +3788,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/ES",
-      "usdAmount": 29.85,
-      "twdAmount": 951.15
+      "usdAmount": 29.8,
+      "twdAmount": 947.71
     },
     {
       "countryCode": "FI",
@@ -3805,10 +3805,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/FI",
-      "usdAmount": 29.85,
-      "twdAmount": 951.15
+      "usdAmount": 29.8,
+      "twdAmount": 947.71
     },
     {
       "countryCode": "FR",
@@ -3822,10 +3822,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/FR",
-      "usdAmount": 29.85,
-      "twdAmount": 951.15
+      "usdAmount": 29.8,
+      "twdAmount": 947.71
     },
     {
       "countryCode": "GR",
@@ -3839,10 +3839,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/GR",
-      "usdAmount": 29.85,
-      "twdAmount": 951.15
+      "usdAmount": 29.8,
+      "twdAmount": 947.71
     },
     {
       "countryCode": "HR",
@@ -3856,10 +3856,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/HR",
-      "usdAmount": 29.85,
-      "twdAmount": 951.15
+      "usdAmount": 29.8,
+      "twdAmount": 947.71
     },
     {
       "countryCode": "IE",
@@ -3873,10 +3873,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/IE",
-      "usdAmount": 29.85,
-      "twdAmount": 951.15
+      "usdAmount": 29.8,
+      "twdAmount": 947.71
     },
     {
       "countryCode": "IT",
@@ -3890,10 +3890,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/IT",
-      "usdAmount": 29.85,
-      "twdAmount": 951.15
+      "usdAmount": 29.8,
+      "twdAmount": 947.71
     },
     {
       "countryCode": "LT",
@@ -3907,10 +3907,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/LT",
-      "usdAmount": 29.85,
-      "twdAmount": 951.15
+      "usdAmount": 29.8,
+      "twdAmount": 947.71
     },
     {
       "countryCode": "LU",
@@ -3924,10 +3924,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/LU",
-      "usdAmount": 29.85,
-      "twdAmount": 951.15
+      "usdAmount": 29.8,
+      "twdAmount": 947.71
     },
     {
       "countryCode": "LV",
@@ -3941,10 +3941,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/LV",
-      "usdAmount": 29.85,
-      "twdAmount": 951.15
+      "usdAmount": 29.8,
+      "twdAmount": 947.71
     },
     {
       "countryCode": "MT",
@@ -3958,10 +3958,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/MT",
-      "usdAmount": 29.85,
-      "twdAmount": 951.15
+      "usdAmount": 29.8,
+      "twdAmount": 947.71
     },
     {
       "countryCode": "NL",
@@ -3975,10 +3975,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/NL",
-      "usdAmount": 29.85,
-      "twdAmount": 951.15
+      "usdAmount": 29.8,
+      "twdAmount": 947.71
     },
     {
       "countryCode": "PT",
@@ -3992,10 +3992,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/PT",
-      "usdAmount": 29.85,
-      "twdAmount": 951.15
+      "usdAmount": 29.8,
+      "twdAmount": 947.71
     },
     {
       "countryCode": "SI",
@@ -4009,10 +4009,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/SI",
-      "usdAmount": 29.85,
-      "twdAmount": 951.15
+      "usdAmount": 29.8,
+      "twdAmount": 947.71
     },
     {
       "countryCode": "SK",
@@ -4026,10 +4026,10 @@
       "taxType": null,
       "taxPercent": null,
       "status": "fresh",
-      "fetchedAt": "2026-09-18T09:22:04.849Z",
+      "fetchedAt": "2026-09-21T01:38:46.562Z",
       "sourceUrl": "https://chatgpt.com/backend-anon/checkout_pricing_config/configs/SK",
-      "usdAmount": 29.85,
-      "twdAmount": 951.15
+      "usdAmount": 29.8,
+      "twdAmount": 947.71
     }
   ]
 }
